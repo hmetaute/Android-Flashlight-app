@@ -1,0 +1,22 @@
+package root.classes.viewManagers;
+
+import android.content.Context;
+import android.view.View;
+import android.view.View.OnClickListener;
+
+public class OptionsScreenManager implements OnClickListener{
+	
+	Context myContext;
+	
+	public OptionsScreenManager(Context c){
+		myContext = c;
+	}
+
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	Op
+
+}

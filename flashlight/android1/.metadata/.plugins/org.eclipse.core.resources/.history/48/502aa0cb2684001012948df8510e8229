@@ -1,0 +1,5 @@
+package root.classes.viewManagers;
+
+public class MainWindowManager {
+
+}

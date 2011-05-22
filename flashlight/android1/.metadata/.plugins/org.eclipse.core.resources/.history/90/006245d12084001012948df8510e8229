@@ -1,0 +1,29 @@
+package root.classes.hello;
+
+import android.content.Context;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Toast;
+
+public class ManejadorVentanaPrincipal implements OnClickListener {
+	
+	Context myContext;
+	
+	
+	public ManejadorVentanaPrincipal(Context c){
+		myContext  = c;
+	}
+
+	public void onClick(View v) {
+		
+		
+		CharSequence text = "Hello toast!";
+		int duration = Toast.LENGTH_SHORT;
+		Toast toast = Toast.makeText(c, text, duration);
+		toast.show();
+		
+	}
+	
+	
+
+}

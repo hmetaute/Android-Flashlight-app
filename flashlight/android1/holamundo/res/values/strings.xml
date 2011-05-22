@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, primera_activity!</string>
+    <string name="app_name">hola_mundo_app</string>
+    <string name="options_name">Panel_de_Opciones</string>
+    <string name="flash_light_name">no title please</string>
+</resources>

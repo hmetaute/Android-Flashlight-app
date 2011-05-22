@@ -1,0 +1,7 @@
+package root.classes.helpers;
+
+import android.app.Dialog;
+
+public class ColorPickerDialog extends Dialog {
+
+}

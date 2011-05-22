@@ -1,0 +1,5 @@
+package root.classes.hello;
+
+public class ManejadorVentanaPrincipal {
+
+}
