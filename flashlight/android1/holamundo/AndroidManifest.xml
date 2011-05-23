@@ -17,8 +17,7 @@
                   android:label="@string/options_name">            
         </activity>
         <activity android:name="root.classes.views.FlashLightViewActivity"
-                  android:label="@string/flash_light_name">            
-        </activity>
-
+                  android:label="@string/flash_light_name">                              
+        </activity>        
     </application>
 </manifest>

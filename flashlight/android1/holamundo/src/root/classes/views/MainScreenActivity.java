@@ -1,6 +1,6 @@
 package root.classes.views;
 
-import root.classes.viewManagers.ManejadorVentanaPrincipal;
+import root.classes.viewManagers.MainViewManager;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -21,7 +21,7 @@ public class MainScreenActivity extends Activity {
         LinearLayout linearLayout = new LinearLayout(this);
         Button button = new Button(this);
         TextView textView = new TextView(this);
-        ManejadorVentanaPrincipal man = new ManejadorVentanaPrincipal(this);
+        MainViewManager man = new MainViewManager(this);
         button.setText("Press this button for the lamest thing ever");
         button.setOnClickListener(man);
         linearLayout.setOrientation(LinearLayout.VERTICAL);

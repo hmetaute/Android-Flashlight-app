@@ -1,5 +1,7 @@
 package root.classes.model;
 
+import android.graphics.Color;
+
 /**
  * Class encapsulating flashlight options
  * @author hernan
@@ -7,21 +9,26 @@ package root.classes.model;
  */
 public class FlashLightOptions {
 	
-	private int Color;
-	private int Duration;
+	private int color;
+	private int duration;
+	
+	public FlashLightOptions(){
+		color = Color.WHITE;
+		duration = 10000;
+	}
 	
 	
 	public int getColor() {
-		return Color;
+		return color;
 	}
 	public void setColor(int color) {
-		Color = color;
+		this.color = color;
 	}
 	public int getDuration() {
-		return Duration;
+		return duration;
 	}
 	public void setDuration(int duration) {
-		Duration = duration;
+		this.duration = duration;
 	}
 	
 }
